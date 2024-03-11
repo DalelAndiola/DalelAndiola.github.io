@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Rakkas&family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#quees {
+    padding: 0px 50px;
+    background-image: url(img_magia_caos/experiencia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido-quees {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-quees h3 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Cedarville Cursive", cursive;
+    color: #3C2172;
+    padding: 10px 10px;
+}
+
+.contenido-quees h4 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.contenido-quees p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0;
+}
+
+.contenido-quees a{
+    text-decoration: none;
+    color: #3C2172;
+    font-size: 30px;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.contenido-quees a:hover {
+    color: #be6ece;
+}
+
+#donde {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenido-donde {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-donde h3 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Cedarville Cursive", cursive;
+    color: #3C2172;
+    padding: 10px 10px;
+}
+
+.contenido-donde p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0;
+}
+
+#magos {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#magos img {
+    border-radius: 100%;
+}
+
+.contenidos-magos {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenidos-magos h4 {
+    color: #3C2172;
+    font-size: 30px;
+    font-family: "Cedarville Cursive", cursive;
+    margin: 20px 0px;
+}
+
+.contenidos-magos p {
+    font-size: 15px;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;  
+}
+
+#disclaimer {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff 
+}
+
+.donde-como {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px; 
+}
+
+.donde-como a{
+    text-decoration: none;
+    color: #3C2172;
+    font-size: 30px;
+    padding: 10px 10px;
+    transition: 0.4s;
+}
+
+.donde-como a:hover {
+    color: #be6ece;
+}
+
+#como {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.contenido-como {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-como h3 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Cedarville Cursive", cursive;
+    color: #3C2172;
+    padding: 10px 10px;
+}
+
+.contenido-como h4 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0;
+}
+
+.contenido-como p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0;
+}
+
+.leyendas h4{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Yusei Magic", sans-serif;
+    color: #ffffff;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0;
+
+}
+
+.leyendas a{
+    text-decoration: none;
+    color: #3C2172;
+    font-size: 30px;
+    font-family: "Yusei Magic", sans-serif;
+    padding: 10px 10px;
+    transition: 0.4s; 
+    display: flex;
+    justify-content: center;
+}
+
+.leyendas a:hover {
+    color: #be6ece;
+}
+
+#como {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+#datos h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Cedarville Cursive", cursive;
+    color: #3C2172;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+
+@media(max-width:768px) {
+
+    .contenidos-magos{
+        flex-direction: column;
+    }
+
+    #disclaimer{
+        font-size: 15px;
+    }
+
+    .donde-como{
+        font-size: 15px;
+    }
+
+}
